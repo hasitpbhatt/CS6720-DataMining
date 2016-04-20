@@ -1,0 +1,17 @@
+DEPENDENCIES
+============
+
+- GNU G++ compiler supporting C++11 standard
+- make
+- Python Compiler
+- NumPy
+- SciPy
+- Sci-kit learn library ( Python )
+- Java Developmenk Kit & Java Runtime ( Preferably JDK 8 )
+
+HOW TO RUN
+============
+sh classify.sh <trainset filename containing graphs> <active graph IDs filename> <inactive graph IDs filename> <testset filename containing graphs>
+
+If it does not work, check dependencies and check whether the executable files have valid(read, write, execute) permission.
+output will be stored in output.txt file

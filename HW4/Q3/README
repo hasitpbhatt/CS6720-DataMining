@@ -1,0 +1,17 @@
+DEPENDENCIES
+============
+
+- GNU G++ compiler supporting C++11 standard
+- make
+
+HOW TO RUN
+============
+sh generateDFSCode.sh <graphDataset filename>
+
+If it does not work, check dependencies and check whether the executable files have valid(read, write, execute) permission.
+output will be stored in output.txt file.
+
+REQUIRED TIME
+============
+
+As finding the minimum DFS code is NP, timeouts are set for each case so each solution does not exceed 0.2s.

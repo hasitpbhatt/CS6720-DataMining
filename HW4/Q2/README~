@@ -1,0 +1,6 @@
+DEPENDENCIES
+============
+
+- GNU G++ compiler supporting C++11 standard
+- Python Compiler
+- Sci-kit learn library

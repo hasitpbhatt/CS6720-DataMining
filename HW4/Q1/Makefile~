@@ -1,0 +1,3 @@
+all:
+	g++ convertFile.cpp -std=c++11 -o convertFile
+	g++ convertFile

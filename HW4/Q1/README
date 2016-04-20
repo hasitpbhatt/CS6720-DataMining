@@ -1,0 +1,9 @@
+DEPENDENCIES
+============
+GNU g++ compiler supporting C++11
+
+For conversion, compile required file by using
+
+$ make
+
+Ans, use respective file to convert a file into given format
