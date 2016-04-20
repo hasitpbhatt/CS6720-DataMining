@@ -1,0 +1,36 @@
+
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Installation
+ * How To Run
+
+
+INTRODUCTION
+------------
+
+Developer: Hasit Bhatt <hasit.p.bhatt@gmail.com>
+
+MakeClusters is a simple k-means clustering algorithm, used to find
+the ratio of inter-cluster vs intra cluster.
+
+
+INSTALLATION
+------------
+To build the program, use 
+$ make
+
+To clear the object files, and build again
+$ make rebuild
+
+
+HOW TO RUN
+----------
+
+To run the program, use either of the following commands, depending on the 
+parameters you require
+$ .\MakeClusters
+$ .\MakeClusters input_file
+$ .\MakeClusters input_file number_of_dimensions
+Note: The output values will be written in output.txt in the same file

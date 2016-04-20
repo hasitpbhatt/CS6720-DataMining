@@ -1,0 +1,11 @@
+Pairwise distance 
+
+======================
+Compile :
+javac *.java
+
+=======================
+Run :
+java Main
+---------------------
+Enter the number of dimensions as input.

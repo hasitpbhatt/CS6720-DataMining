@@ -1,0 +1,11 @@
+Pairwise distance between points of n dimensions
+
+======================
+Compile :
+javac *.java
+
+=======================
+Run :
+java Main
+---------------------
+Enter the number of dimensions as input.

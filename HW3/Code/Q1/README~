@@ -1,0 +1,14 @@
+OPTICS
+
+With and Without RangeTree
+
+====================================
+
+The program can be compiled as
+
+javac *.java
+
+It can be run as
+=====================================
+java Main $filename $flag $noOfPoints
+

@@ -1,0 +1,48 @@
+
+CONTENTS OF THIS FILE
+---------------------
+
+ * Introduction
+ * Installation
+ * How To Run
+ * Fpgrowth
+
+
+INTRODUCTION
+------------
+
+Developer: Hasit Bhatt <hasit.p.bhatt@gmail.com>
+Apriori is a tool to find the frequent itemsets from given number of 
+transactions in flat format ( each line containing a transaction )
+
+
+INSTALLATION
+------------
+To build the program, use 
+$ make
+
+To clear the object files
+$ make clear
+
+
+HOW TO RUN
+----------
+
+To run the program, use either of the following commands, depending on the 
+parameters you require
+$ .\Apriori
+$ .\Apriori filename
+$ .\Apriori filename supportThreshold(in percentage)
+
+Note: The output will be redirected in CS15M015_1a.txt and will also be printed 
+on console, which may redirected to some other file if needed.
+
+FP Growth
+---------
+
+FP Growth is an implementation of FP tree in C++.
+The README file for the same can be found under the folder.
+It can be run using following command
+$ ./fpgrowth filename 3 support_frequency 
+e.g. for the assignment case, it can be written as ( 8816 = 10% of 88162)
+$ ./fpgrowth retail.dat 3 8816 output.txt

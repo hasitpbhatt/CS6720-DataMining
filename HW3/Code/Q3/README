@@ -1,0 +1,5 @@
+To Run
+==================
+python compare.py
+
+Give filenames which are in tab separated communities format.

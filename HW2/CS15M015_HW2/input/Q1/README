@@ -1,0 +1,12 @@
+The files in this folder contains data for 
+Question 1 files
+
+1) b. varying dataset size
+      - 10_percent_data.dat
+	  - 25_percent_data.dat
+	  - 50_percent_data.dat
+
+1) c. varying top k%
+      - top10.txt
+      - top25.txt
+	  - top50.txt
